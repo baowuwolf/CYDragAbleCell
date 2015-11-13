@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		772E24FC1BF583A700AF574F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 772E24FB1BF583A700AF574F /* main.m */; };
+		772E24FF1BF583A700AF574F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 772E24FE1BF583A700AF574F /* AppDelegate.m */; };
+		772E25021BF583A700AF574F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 772E25011BF583A700AF574F /* ViewController.m */; };
+		772E25051BF583A700AF574F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 772E25031BF583A700AF574F /* Main.storyboard */; };
+		772E25071BF583A700AF574F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 772E25061BF583A700AF574F /* Assets.xcassets */; };
+		772E250A1BF583A700AF574F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 772E25081BF583A700AF574F /* LaunchScreen.storyboard */; };
+		772E25151BF583A700AF574F /* CYDragAbleCellProjTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 772E25141BF583A700AF574F /* CYDragAbleCellProjTests.m */; };
+		772E25201BF583A700AF574F /* CYDragAbleCellProjUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 772E251F1BF583A700AF574F /* CYDragAbleCellProjUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		772E25111BF583A700AF574F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 772E24EF1BF583A700AF574F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 772E24F61BF583A700AF574F;
+			remoteInfo = CYDragAbleCellProj;
+		};
+		772E251C1BF583A700AF574F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 772E24EF1BF583A700AF574F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 772E24F61BF583A700AF574F;
+			remoteInfo = CYDragAbleCellProj;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		772E24F71BF583A700AF574F /* CYDragAbleCellProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYDragAbleCellProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		772E24FB1BF583A700AF574F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		772E24FD1BF583A700AF574F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		772E24FE1BF583A700AF574F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		772E25001BF583A700AF574F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		772E25011BF583A700AF574F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		772E25041BF583A700AF574F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		772E25061BF583A700AF574F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		772E25091BF583A700AF574F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		772E250B1BF583A700AF574F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		772E25101BF583A700AF574F /* CYDragAbleCellProjTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYDragAbleCellProjTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		772E25141BF583A700AF574F /* CYDragAbleCellProjTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYDragAbleCellProjTests.m; sourceTree = "<group>"; };
+		772E25161BF583A700AF574F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		772E251B1BF583A700AF574F /* CYDragAbleCellProjUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYDragAbleCellProjUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		772E251F1BF583A700AF574F /* CYDragAbleCellProjUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYDragAbleCellProjUITests.m; sourceTree = "<group>"; };
+		772E25211BF583A700AF574F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		772E24F41BF583A700AF574F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		772E250D1BF583A700AF574F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		772E25181BF583A700AF574F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		772E24EE1BF583A700AF574F = {
+			isa = PBXGroup;
+			children = (
+				772E24F91BF583A700AF574F /* CYDragAbleCellProj */,
+				772E25131BF583A700AF574F /* CYDragAbleCellProjTests */,
+				772E251E1BF583A700AF574F /* CYDragAbleCellProjUITests */,
+				772E24F81BF583A700AF574F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		772E24F81BF583A700AF574F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				772E24F71BF583A700AF574F /* CYDragAbleCellProj.app */,
+				772E25101BF583A700AF574F /* CYDragAbleCellProjTests.xctest */,
+				772E251B1BF583A700AF574F /* CYDragAbleCellProjUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		772E24F91BF583A700AF574F /* CYDragAbleCellProj */ = {
+			isa = PBXGroup;
+			children = (
+				772E24FD1BF583A700AF574F /* AppDelegate.h */,
+				772E24FE1BF583A700AF574F /* AppDelegate.m */,
+				772E25001BF583A700AF574F /* ViewController.h */,
+				772E25011BF583A700AF574F /* ViewController.m */,
+				772E25031BF583A700AF574F /* Main.storyboard */,
+				772E25061BF583A700AF574F /* Assets.xcassets */,
+				772E25081BF583A700AF574F /* LaunchScreen.storyboard */,
+				772E250B1BF583A700AF574F /* Info.plist */,
+				772E24FA1BF583A700AF574F /* Supporting Files */,
+			);
+			path = CYDragAbleCellProj;
+			sourceTree = "<group>";
+		};
+		772E24FA1BF583A700AF574F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				772E24FB1BF583A700AF574F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		772E25131BF583A700AF574F /* CYDragAbleCellProjTests */ = {
+			isa = PBXGroup;
+			children = (
+				772E25141BF583A700AF574F /* CYDragAbleCellProjTests.m */,
+				772E25161BF583A700AF574F /* Info.plist */,
+			);
+			path = CYDragAbleCellProjTests;
+			sourceTree = "<group>";
+		};
+		772E251E1BF583A700AF574F /* CYDragAbleCellProjUITests */ = {
+			isa = PBXGroup;
+			children = (
+				772E251F1BF583A700AF574F /* CYDragAbleCellProjUITests.m */,
+				772E25211BF583A700AF574F /* Info.plist */,
+			);
+			path = CYDragAbleCellProjUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		772E24F61BF583A700AF574F /* CYDragAbleCellProj */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 772E25241BF583A700AF574F /* Build configuration list for PBXNativeTarget "CYDragAbleCellProj" */;
+			buildPhases = (
+				772E24F31BF583A700AF574F /* Sources */,
+				772E24F41BF583A700AF574F /* Frameworks */,
+				772E24F51BF583A700AF574F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CYDragAbleCellProj;
+			productName = CYDragAbleCellProj;
+			productReference = 772E24F71BF583A700AF574F /* CYDragAbleCellProj.app */;
+			productType = "com.apple.product-type.application";
+		};
+		772E250F1BF583A700AF574F /* CYDragAbleCellProjTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 772E25271BF583A700AF574F /* Build configuration list for PBXNativeTarget "CYDragAbleCellProjTests" */;
+			buildPhases = (
+				772E250C1BF583A700AF574F /* Sources */,
+				772E250D1BF583A700AF574F /* Frameworks */,
+				772E250E1BF583A700AF574F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				772E25121BF583A700AF574F /* PBXTargetDependency */,
+			);
+			name = CYDragAbleCellProjTests;
+			productName = CYDragAbleCellProjTests;
+			productReference = 772E25101BF583A700AF574F /* CYDragAbleCellProjTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		772E251A1BF583A700AF574F /* CYDragAbleCellProjUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 772E252A1BF583A700AF574F /* Build configuration list for PBXNativeTarget "CYDragAbleCellProjUITests" */;
+			buildPhases = (
+				772E25171BF583A700AF574F /* Sources */,
+				772E25181BF583A700AF574F /* Frameworks */,
+				772E25191BF583A700AF574F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				772E251D1BF583A700AF574F /* PBXTargetDependency */,
+			);
+			name = CYDragAbleCellProjUITests;
+			productName = CYDragAbleCellProjUITests;
+			productReference = 772E251B1BF583A700AF574F /* CYDragAbleCellProjUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		772E24EF1BF583A700AF574F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = caoyu;
+				TargetAttributes = {
+					772E24F61BF583A700AF574F = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					772E250F1BF583A700AF574F = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 772E24F61BF583A700AF574F;
+					};
+					772E251A1BF583A700AF574F = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 772E24F61BF583A700AF574F;
+					};
+				};
+			};
+			buildConfigurationList = 772E24F21BF583A700AF574F /* Build configuration list for PBXProject "CYDragAbleCellProj" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 772E24EE1BF583A700AF574F;
+			productRefGroup = 772E24F81BF583A700AF574F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				772E24F61BF583A700AF574F /* CYDragAbleCellProj */,
+				772E250F1BF583A700AF574F /* CYDragAbleCellProjTests */,
+				772E251A1BF583A700AF574F /* CYDragAbleCellProjUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		772E24F51BF583A700AF574F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				772E250A1BF583A700AF574F /* LaunchScreen.storyboard in Resources */,
+				772E25071BF583A700AF574F /* Assets.xcassets in Resources */,
+				772E25051BF583A700AF574F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		772E250E1BF583A700AF574F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		772E25191BF583A700AF574F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		772E24F31BF583A700AF574F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				772E25021BF583A700AF574F /* ViewController.m in Sources */,
+				772E24FF1BF583A700AF574F /* AppDelegate.m in Sources */,
+				772E24FC1BF583A700AF574F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		772E250C1BF583A700AF574F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				772E25151BF583A700AF574F /* CYDragAbleCellProjTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		772E25171BF583A700AF574F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				772E25201BF583A700AF574F /* CYDragAbleCellProjUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		772E25121BF583A700AF574F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 772E24F61BF583A700AF574F /* CYDragAbleCellProj */;
+			targetProxy = 772E25111BF583A700AF574F /* PBXContainerItemProxy */;
+		};
+		772E251D1BF583A700AF574F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 772E24F61BF583A700AF574F /* CYDragAbleCellProj */;
+			targetProxy = 772E251C1BF583A700AF574F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		772E25031BF583A700AF574F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				772E25041BF583A700AF574F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		772E25081BF583A700AF574F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				772E25091BF583A700AF574F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		772E25221BF583A700AF574F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		772E25231BF583A700AF574F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		772E25251BF583A700AF574F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CYDragAbleCellProj/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baowu.CYDragAbleCellProj;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		772E25261BF583A700AF574F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CYDragAbleCellProj/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baowu.CYDragAbleCellProj;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		772E25281BF583A700AF574F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CYDragAbleCellProjTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baowu.CYDragAbleCellProjTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYDragAbleCellProj.app/CYDragAbleCellProj";
+			};
+			name = Debug;
+		};
+		772E25291BF583A700AF574F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CYDragAbleCellProjTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baowu.CYDragAbleCellProjTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYDragAbleCellProj.app/CYDragAbleCellProj";
+			};
+			name = Release;
+		};
+		772E252B1BF583A700AF574F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CYDragAbleCellProjUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baowu.CYDragAbleCellProjUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CYDragAbleCellProj;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		772E252C1BF583A700AF574F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CYDragAbleCellProjUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baowu.CYDragAbleCellProjUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CYDragAbleCellProj;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		772E24F21BF583A700AF574F /* Build configuration list for PBXProject "CYDragAbleCellProj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				772E25221BF583A700AF574F /* Debug */,
+				772E25231BF583A700AF574F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		772E25241BF583A700AF574F /* Build configuration list for PBXNativeTarget "CYDragAbleCellProj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				772E25251BF583A700AF574F /* Debug */,
+				772E25261BF583A700AF574F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		772E25271BF583A700AF574F /* Build configuration list for PBXNativeTarget "CYDragAbleCellProjTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				772E25281BF583A700AF574F /* Debug */,
+				772E25291BF583A700AF574F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		772E252A1BF583A700AF574F /* Build configuration list for PBXNativeTarget "CYDragAbleCellProjUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				772E252B1BF583A700AF574F /* Debug */,
+				772E252C1BF583A700AF574F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 772E24EF1BF583A700AF574F /* Project object */;
+}
