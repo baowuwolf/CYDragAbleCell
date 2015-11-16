@@ -1,22 +1,31 @@
 //
 //  AppDelegate.m
-//  CYDragAbleCellProj
+//  EditableTableView
 //
-//  Created by caoyu on 15/11/13.
-//  Copyright © 2015年 caoyu. All rights reserved.
+//  Created by Alfred Hanssen on 8/16/14.
+//  Copyright (c) 2014 alfiehanssen. All rights reserved.
 //
 
+
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
+            
 
-
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    [[UIApplication sharedApplication] setStatusBarHidden:YES];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];;
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

@@ -1,18 +1,19 @@
 //
-//  CYDragAbleCellProjTests.m
-//  CYDragAbleCellProjTests
+//  EditableTableViewTests.m
+//  EditableTableViewTests
 //
-//  Created by caoyu on 15/11/13.
-//  Copyright © 2015年 caoyu. All rights reserved.
+//  Created by Alfred Hanssen on 8/16/14.
+//  Copyright (c) 2014 alfiehanssen. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface CYDragAbleCellProjTests : XCTestCase
+@interface EditableTableViewTests : XCTestCase
 
 @end
 
-@implementation CYDragAbleCellProjTests
+@implementation EditableTableViewTests
 
 - (void)setUp {
     [super setUp];
@@ -26,7 +27,7 @@
 
 - (void)testExample {
     // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+    XCTAssert(YES, @"Pass");
 }
 
 - (void)testPerformanceExample {

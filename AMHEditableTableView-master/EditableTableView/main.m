@@ -1,10 +1,11 @@
 //
 //  main.m
-//  CYDragAbleCellProj
+//  EditableTableView
 //
-//  Created by caoyu on 15/11/13.
-//  Copyright © 2015年 caoyu. All rights reserved.
+//  Created by Alfred Hanssen on 8/16/14.
+//  Copyright (c) 2014 alfiehanssen. All rights reserved.
 //
+
 
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
